@@ -1,0 +1,64 @@
+
+{"intents": [
+            {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Hey","Good day", "Whats up","Hola"],
+         "responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?","Hi! :)"],
+         "context_set": ""
+            },
+            {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Sad to see you go..", "Talk to you later", "Goodbye!", "Leaving already? :("],
+         "context_set": ""
+            },
+            {"tag": "q1",
+         "patterns": ["best movie in 2022", "What was the top movie on Netflix in 2022?", "Top movie in 2022", "what was the best movie on Netflix this year?", "what was the highest rated movie this year?","what was the highest rated movie in 2022", "highest rated movie in 2022"],
+         "responses": ["The Tinder Swindler"],
+         "context_set": ""
+            },
+            {"tag": "q2",
+         "patterns": ["highest rated movie on Netflix", "What is the top movie on Netflix", "Top movie", "what is the best movie on Netflix", "what is the highest rated movie on netflix"],
+         "responses": ["David Attenborough: A Life on Our Planet"],
+         "context_set": ""
+            },
+             {"tag":"q3",
+           "patterns":["best show in 2022?","Top show 2022","Top show on netflix 2022", "What was the top show on Netflix in 2022?", "highest rated show on Netflix this year","highest rated show on netflix in 2022","What is the highest rated show on Netflix in 2022","What is the best show on Netflix from 2022?"],
+         "responses": ["Heartstopper"],
+         "context_set": ""
+             },
+              {"tag":"q4",
+     "patterns":[" highest rated show","Top show","Top show on netflix", "What was the top show on Netflix?", "what is the highest rated show on netflix?","highest rated movie on netflix"],
+     "responses": ["Breaking Bad"],
+     "context_set": ""
+            },
+            {"tag":"q5",
+     "patterns":["Best shows from Canada","what are the best shows on Netflix from Canada?","Top shows on netflix from Canada", "What are the best Canadian shows on Netflix?", "highest rated Canadian shows","highest rated shows from Canada on netflix"],
+     "responses": ["Anne with an E + Trailer Park Boys"],
+     "context_set": ""
+            },
+            {"tag":"q6",
+     "patterns":["what is the oldest movie on Netflix and when is it from?","oldest movie on netflix","title and year of oldest movie on netflix", "oldest movie", "oldest movie and year","What is the oldest movie on Netflix and what year was it made?"],
+     "responses": ["{'title': 'Five Came Back: The Reference Films', 'release_year': 1945}"],
+     "context_set": ""
+            },
+            {"tag":"q7",
+     "patterns":["what is the best show for children?","best TV-7 show on Netflix","best children's show on netflix", "best children's show", "what is the best show on netflix for children","show for children"],
+     "responses": ["{'title': 'Pokémon', 'age_certification': 'TV-Y7'}"],
+     "context_set": ""
+            },
+            {"tag":"q8",
+     "patterns":["what is the best action movie on netflix?","best action movie on Netflix","highest rated action movie", "best action movie", "What is the best action movie?","top action movie"],
+     "responses": ["Dangal"],
+     "context_set": ""
+            },
+            {"tag":"q9",
+     "patterns":["top 5 movies on netflix","five best movies on netflix","top five movies on netflix", "top 5 movies", "What are the top 5 movies on netflix?","top five movies"],
+     "responses": ["{'TITLE': 'David Attenborough: A Life on Our Planet', 'SCORE': 9.0} {'TITLE': 'Forrest Gump', 'SCORE': 8.8} {'TITLE': 'Inception', 'SCORE': 8.8} {'TITLE': 'Bo Burnham: Inside', 'SCORE': 8.7} {'TITLE': 'Anbe Sivam', 'SCORE': 8.7}"],
+     "context_set": ""
+            },
+            {"tag":"q10",
+     "patterns":["what are the best shows from before 2000?","best shows from before 2000","top old shows", "highest rated old shows", "What are the highest rated shows from before 2000","shows before 2000"],
+     "responses": ["{'TITLE': 'Monty Python's Flying Circus, 'RELEASE_YEAR': 1969} {'TITLE': 'Seinfeld', 'RELEASE_YEAR': 1989} {'TITLE': 'Star Trek: Deep Space Nine', 'RELEASE_YEAR': 1993} {'TITLE': 'Neon Genesis Evangelion', 'RELEASE_YEAR': 1995} {'TITLE': 'Goosebumps', 'RELEASE_YEAR': 1995} {'TITLE': 'Stargate SG-1', 'RELEASE_YEAR': 1997} {'TITLE': 'Cowboy Bebop', 'RELEASE_YEAR': 1998} {'TITLE': 'One Piece', 'RELEASE_YEAR': 1999}"],
+     "context_set": ""
+            }
+           ]
+}
